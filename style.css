@@ -523,3 +523,8 @@ footer{padding:60px 0 34px}
 .legal-note .lh{display:block;font-size:10.5px;font-weight:800;letter-spacing:1.4px;text-transform:uppercase;
   color:var(--dim);margin-bottom:8px;opacity:.85}
 .legal-note a{color:var(--sub);text-decoration:underline;text-underline-offset:3px}
+
+/* запасное зеркало под карточками */
+.dl-fallback{text-align:center;margin:14px 0 0;font-size:12.5px;color:var(--dim)}
+.dl-fallback a{color:var(--sub);text-decoration:underline;text-underline-offset:3px}
+.dl-fallback a:hover{color:var(--text)}
