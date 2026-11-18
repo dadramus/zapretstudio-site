@@ -515,3 +515,11 @@ footer{padding:60px 0 34px}
   text-transform:uppercase;color:#7BE3A5;background:rgba(34,197,94,.1);
   border:1px solid rgba(34,197,94,.3);padding:4px 10px;border-radius:999px;white-space:nowrap}
 .fresh i{width:5px;height:5px;border-radius:50%;background:#22C55E;box-shadow:0 0 7px rgba(34,197,94,.9);flex:none}
+
+/* дисклеймер */
+.legal-note{margin-top:16px;padding:18px 20px;border-radius:13px;font-size:12.5px;line-height:1.75;
+  color:var(--dim);background:rgba(255,255,255,.028);border:1px solid var(--stroke)}
+.legal-note b{color:var(--sub);font-weight:650}
+.legal-note .lh{display:block;font-size:10.5px;font-weight:800;letter-spacing:1.4px;text-transform:uppercase;
+  color:var(--dim);margin-bottom:8px;opacity:.85}
+.legal-note a{color:var(--sub);text-decoration:underline;text-underline-offset:3px}
