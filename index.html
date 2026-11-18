@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zapret Studio — оболочка для zapret. Обход блокировок без консоли</title>
+<meta name="description" content="Zapret Studio — графическая оболочка для zapret: подбор рабочей стратегии в один клик, слежение за связью, автовосстановление и встроенный туннель Cloudflare WARP. Бесплатно, для Windows 10 и 11.">
+<meta name="theme-color" content="#08080B">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Zapret Studio — обход блокировок без консоли">
+<meta property="og:description" content="Одна кнопка вместо двадцати .bat-файлов. Подбор стратегии, слежение за связью, встроенный WARP.">
+<meta property="og:image" content="img/icon.png">
+<link rel="icon" href="img/icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="orbs"><i></i><i></i><i></i></div>
+<div class="grid-bg"></div>
+
+<header id="hd">
+  <div class="wrap nav">
+    <a class="brand" href="#top"><img src="img/icon.png" alt=""> Zapret Studio</a>
+    <nav>
+      <a href="#features">Возможности</a>
+      <a href="#install">Установка</a>
+      <a href="#warp">WARP</a>
+      <a href="#changelog">Обновления</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <span class="sp"></span>
+    <a class="btn btn-p btn-sm" href="#download">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+      Скачать 2.5 · 5,2 МБ
+    </a>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap hero-in">
+      <div>
+        <div class="pill"><span class="dot"></span> Версия 2.5 · WARP работает</div>
+        <h1>Обход блокировок<br><span class="grad">без консоли и боли</span></h1>
+        <p class="lead">Zapret Studio — оболочка для zapret. Одна кнопка вместо двадцати <code style="font-family:var(--mono);font-size:.92em;color:#B9A8FF">.bat</code>-файлов: подберёт рабочую стратегию, проследит за связью и поднимет туннель, если провайдер упрётся. Движок zapret — в том же архиве или свой.</p>
+        <div class="cta">
+          <a class="btn btn-p" href="#download">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+            Скачать бесплатно
+          </a>
+          <a class="btn btn-g" href="#install">Как установить</a>
+        </div>
+        <div class="meta">
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 5h18v11H3z"/><path d="M8 20h8"/></svg> Windows 10 / 11</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M5 8l7-5 7 5"/></svg> Без установки</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5L20 6"/></svg> Без телеметрии</span>
+        </div>
+      </div>
+
+      <div class="mock" aria-hidden="true">
+        <div class="mock-bar"><i></i><i></i><i></i><span>Zapret Studio 2.5</span></div>
+        <div class="mock-body">
+          <div class="row act"><span class="st"></span><b>Умный TLS</b><small>работает · 24 мс</small></div>
+          <div class="row"><span class="st"></span><b>Классика</b><small>ALT2</small></div>
+          <div class="row"><span class="st"></span><b>Резерв</b><small>ALT5</small></div>
+          <div class="row"><span class="st"></span><b>Лайт</b><small>ALT9</small></div>
+        </div>
+        <div class="mock-foot"><div></div><div></div><div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="wrap">
+      <div class="head rv">
+        <div class="sec-tag">Возможности</div>
+        <h2>Всё, что раньше делалось руками</h2>
+        <p>Zapret — это двигатель. Zapret Studio — приборная панель: запускает, проверяет и держит связь, пока вы играете.</p>
+      </div>
+      <div class="cards">
+        <div class="card rv">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v4M12 17v4M3 12h4M17 12h4"/><circle cx="12" cy="12" r="3.4"/></svg></div>
+          <h3>Подбор в один клик</h3>
+          <p>Перебирает стратегии, проверяет ваши сервисы и ставит рабочую первой. Три режима: быстрый, полный и срочный.</p>
+          <div class="card-meta"><i></i>22 стратегии · 3 режима</div>
+        </div>
+        <div class="card green rv" style="--d:60ms">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg></div>
+          <h3>Слежение за связью</h3>
+          <p>Проверяет сервисы по расписанию. Упало — перезапустит обход и перейдёт на другую стратегию. Само.</p>
+          <div class="card-meta"><i></i>проверка каждые 1–5 минут</div>
+        </div>
+        <div class="card rv" style="--d:120ms">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <h3>Встроенный WARP</h3>
+          <p>Туннель Cloudflare уже в папке. Одна кнопка, проверка реальным запросом, откат маршрутов при ошибке.</p>
+          <div class="card-meta"><i></i>MASQUE · Cloudflare</div>
+        </div>
+        <div class="card amber rv">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 20h8M12 18v2"/></svg></div>
+          <h3>Без чёрных окон</h3>
+          <p>Ни консоли при запуске, ни при смене стратегии. Значок в трее: зелёный — порядок, красный — сбой и причина словами.</p>
+          <div class="card-meta"><i></i>трей · уведомления</div>
+        </div>
+        <div class="card rv" style="--d:60ms">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h10M4 18h7"/></svg></div>
+          <h3>Понятные названия</h3>
+          <p>Классика, Резерв, Умный TLS, Лайт — вместо <span style="font-family:var(--mono);font-size:.9em">general (FAKE TLS AUTO ALT2)</span>.</p>
+          <div class="card-meta"><i></i>номера ALT сохранены</div>
+        </div>
+        <div class="card rv" style="--d:120ms">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+          <h3>Обновления сами</h3>
+          <p>Через пару секунд после запуска программа проверяет GitHub. Вышла новая — покажет и обновит в один клик.</p>
+          <div class="card-meta"><i></i>раз за запуск</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="warp">
+    <div class="wrap">
+      <div class="warp rv">
+        <div>
+          <div class="sec-tag">Резервный туннель</div>
+          <h2>WARP, который<br>действительно работает</h2>
+          <p>В 2.3 туннель поднимался, показывал зелёное «подключено» — и пропускал трафик мимо. Мы нашли причину и починили.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l5 5L20 6"/></svg><span><b>Маршруты ставятся правильно.</b> Сначала маршрут до сервера Cloudflare через физический адаптер, потом трафик в туннель. Без петли.</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l5 5L20 6"/></svg><span><b>Статус подтверждается запросом.</b> «Подключено» — только после реального ответа Cloudflare через туннель.</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l5 5L20 6"/></svg><span><b>Удержание IP.</b> Адрес запоминается. Сменился — туннель переподключится и попробует вернуть прежний, чтобы игра не выкинула.</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l5 5L20 6"/></svg><span><b>Ошибка — не приговор.</b> Не пошло — маршруты снимаются сами, интернет остаётся рабочим.</span></li>
+          </ul>
+        </div>
+        <div class="flow">
+          <div class="n"><em>1</em> Проверка профиля и адреса сервера</div>
+          <div class="n"><em>2</em> Маршрут до Cloudflare через ваш адаптер</div>
+          <div class="n"><em>3</em> Подъём туннеля и трафик в него</div>
+          <div class="n"><em>4</em> Подтверждение запросом к Cloudflare</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="install">
+    <div class="wrap">
+      <div class="head rv">
+        <div class="sec-tag">Установка</div>
+        <h2>Пять минут — и забыли</h2>
+        <p>Нужны Windows 10 или 11 и права администратора. Всё.</p>
+      </div>
+      <div class="steps">
+        <div class="step rv">
+          <div class="sicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8"/><path d="M2 8h20l-2-4H4L2 8z"/><path d="M12 11v6"/><path d="m9 14 3 3 3-3"/></svg></div>
+          <div class="num">ШАГ 1</div>
+          <h3>Выберите вариант</h3>
+          <p>Нет zapret — берите <a href="#download">полный набор</a>. Уже есть — только <a href="#download">оболочку</a>.</p>
+        </div>
+        <div class="step rv" style="--d:60ms">
+          <div class="sicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></div>
+          <div class="num">ШАГ 2</div>
+          <h3>Распакуйте в C:\Zapret</h3>
+          <p>Папка без русских букв в пути. Если ставите поверх своей сборки — просто замените файлы.</p>
+        </div>
+        <div class="step rv" style="--d:120ms">
+          <div class="sicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M10 8.5l6 3.5-6 3.5z"/></svg></div>
+          <div class="num">ШАГ 3</div>
+          <h3>Запустите «Подбор»</h3>
+          <p>Подтвердите запрос администратора — он нужен драйверу WinDivert. Программа проверит стратегии и предложит лучшую.</p>
+        </div>
+        <div class="step rv" style="--d:180ms">
+          <div class="sicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <div class="num">ЕСЛИ НЕ ПОМОГЛО</div>
+          <h3>Включите WARP</h3>
+          <p>Кнопка в шапке. Туннель Cloudflare выручает, когда провайдер блокирует по адресу.</p>
+        </div>
+      </div>
+
+      <div class="term rv">
+        <div class="term-bar"><i></i><i></i><i></i><span>C:\Zapret</span><em>так правильно</em></div>
+        <div class="term-body">
+          <div class="ftree">
+            <div class="frow root"><span class="fic fold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span><span class="fn">C:\Zapret\</span><span class="fhint ">корневая папка</span></div>
+            <div class="frow l1"><span class="fic run"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M10 8.5l6 3.5-6 3.5z"/></svg></span><span class="fn run">ZapretStudio.bat</span><span class="fbadge">запускать этот</span></div>
+            <div class="frow l1"><span class="fic fold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span><span class="fn">core\</span><span class="fhint p">наша программа</span></div>
+            <div class="frow l2"><span class="fic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/></svg></span><span class="fn">ZapretStudio.ps1</span><span class="fhint ">интерфейс</span></div>
+            <div class="frow l2"><span class="fic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/></svg></span><span class="fn">ZapretStudio.vbs</span><span class="fhint ">тихий запуск</span></div>
+            <div class="frow l2"><span class="fic fold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span><span class="fn">warp\</span><span class="fhint p">туннель Cloudflare</span></div>
+            <div class="frow l1"><span class="fic fold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span><span class="fn">bin\</span><span class="fhint ">движок zapret</span></div>
+            <div class="frow l1"><span class="fic fold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span><span class="fn">lists\</span><span class="fhint ">списки сайтов</span></div>
+            <div class="frow l1"><span class="fic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/></svg></span><span class="fn">general*.bat</span><span class="fhint ">стратегии</span></div>
+            <div class="frow l1"><span class="fic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/></svg></span><span class="fn">service.bat</span><span class="fhint ">служба zapret</span></div>
+          </div>
+          <div class="term-note">
+            <h4>Что куда</h4>
+            <p><b>ZapretStudio.bat</b> — единственное, что нужно запускать. Остальное программа находит сама.</p>
+            <p><b>core\</b> — наша папка: программа и встроенный туннель. <b>bin\, lists\, general*.bat</b> — движок zapret, его не трогаем.</p>
+            <p>Если <b>core\warp\</b> пропала — её съел антивирус. Скачайте архив заново.</p>
+            <div class="legend">
+              <div><i class="lf"></i> папки</div>
+              <div><i class="lr"></i> запускать</div>
+              <div><i class="lg"></i> не трогать</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="changelog">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div class="sec-tag">Обновления</div>
+        <h2>Что менялось</h2>
+        <p>Скачать любую версию — на <a href="https://github.com/dadramus/ZapretStudio/releases" target="_blank" rel="noopener" style="color:#B9A8FF">странице релизов</a>.</p>
+      </div>
+      <div class="log">
+        <div class="rel now rv">
+          <div class="v">2.5<small>18 ноября 2026</small></div>
+          <p><b>WARP наконец работает.</b> Маршрут до сервера Cloudflare закрепляется до подъёма туннеля — больше нет петли, из-за которой трафик уходил мимо. Статус подтверждается запросом. Появилось удержание IP, проверка обновлений и подсказка про WARP при блокировке по адресу.</p>
+          <span class="tag">Актуальная</span>
+        </div>
+        <div class="rel rv">
+          <div class="v">2.3<small>14 ноября 2026</small></div>
+          <p><b>WARP внутри программы.</b> Клиент Cloudflare больше не нужно ставить: туннель в архиве, включается одной кнопкой. <span style="color:var(--warn)">Известная проблема:</span> IPv4 мог идти мимо туннеля — исправлено в 2.5.</p>
+          <span class="tag old">Старая</span>
+        </div>
+        <div class="rel rv">
+          <div class="v">2.2<small>14 ноября 2026</small></div>
+          <p><b>Отмена и чистый выход.</b> Кнопка «Отменить» во время подключения, WARP закрывается вместе с программой, клиент не висит в трее.</p>
+          <span class="tag old">Старая</span>
+        </div>
+        <div class="rel rv">
+          <div class="v">2.1<small>14 ноября 2026</small></div>
+          <p><b>Честный WARP.</b> Программа перестала делать вид, что всё в порядке: если клиента нет или служба лежит — пишет об этом прямо.</p>
+          <span class="tag old">Старая</span>
+        </div>
+        <div class="rel rv">
+          <div class="v">2.0<small>14 ноября 2026</small></div>
+          <p><b>Новый значок и чистая сборка.</b> Монограмма ZS, одна заставка вместо двенадцати, только оболочка и чистые стратегии zapret.</p>
+          <span class="tag old">Старая</span>
+        </div>
+        <div class="rel rv">
+          <div class="v">1.0<small>7 октября 2026</small></div>
+          <p><b>Первый публичный выпуск.</b> Запуск стратегий, избранное, подбор под сервисы, слежение за связью, автовосстановление, трей, темы и встроенная инструкция.</p>
+          <span class="tag old">Старая</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap faq-wrap">
+      <div class="faq-side rv">
+        <div class="sec-tag">Вопросы</div>
+        <h2>Коротко о главном</h2>
+        <p>Собрали то, что спрашивают чаще всего. Если ответа нет — напишите, разберёмся вместе.</p>
+        <a class="btn btn-g" href="https://discord.com/users/510426844236087306" target="_blank" rel="noopener">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.3 4.5A17 17 0 0 0 16 3.2l-.2.4c1.5.4 2.2.9 2.2.9a13 13 0 0 0-11.9 0s.7-.5 2.2-.9L8.1 3.2A17 17 0 0 0 3.7 4.5C1 8.2.3 11.8.6 15.3a17 17 0 0 0 5.2 2.6l.6-1c-.6-.2-1.2-.5-1.7-.9l.4-.3a12 12 0 0 0 10 0l.4.3c-.5.4-1.1.7-1.7.9l.6 1a17 17 0 0 0 5.2-2.6c.4-4-.7-7.6-3.3-10.8zM8.9 13.2c-.9 0-1.6-.8-1.6-1.8s.7-1.8 1.6-1.8 1.6.8 1.6 1.8-.7 1.8-1.6 1.8zm6.2 0c-.9 0-1.6-.8-1.6-1.8s.7-1.8 1.6-1.8 1.6.8 1.6 1.8-.7 1.8-1.6 1.8z"/></svg>
+          Написать в Discord
+        </a>
+
+        <div class="why">
+          <div class="why-t">Почему не просто zapret?</div>
+          <div class="why-i"><span class="m">✓</span><div><b>Подбор вместо перебора</b><span>22 .bat-файла и ручной тык — против одной кнопки</span></div></div>
+          <div class="why-i"><span class="m">✓</span><div><b>Слежение и автопочинка</b><span>Связь упала — перезапустится сама и сменит стратегию</span></div></div>
+          <div class="why-i"><span class="m">✓</span><div><b>Второй слой</b><span>Когда обход не справляется, рядом туннель Cloudflare</span></div></div>
+          <div class="why-i"><span class="m">✓</span><div><b>Ошибки словами</b><span>«Не открывается Discord», а не «winws завершился»</span></div></div>
+        </div>
+      </div>
+
+      <div class="faq">
+        <details class="rv">
+          <summary>Это взлом интернета? Меня посадят?</summary>
+          <p>Нет. Программа не меняет сайты и не обходит ничего, кроме фильтрации у провайдера, — то же самое делает оригинальный zapret. За соблюдение законов своей страны отвечаете вы сами.</p>
+        </details>
+        <details class="rv">
+          <summary>Это вирус? Почему нужны права администратора?</summary>
+          <p>Код открыт — это обычный текстовый <code>.ps1</code>, читается в Блокноте. Телеметрии нет: наружу уходит только проверка доступности сайтов, которые <b>вы</b> выбрали. Права администратора нужны драйверу WinDivert — его использует сам zapret.</p>
+        </details>
+        <details class="rv">
+          <summary>Windows пишет «Неизвестный издатель»</summary>
+          <p>У проекта нет платной цифровой подписи. Сверьте SHA-256 со страницей релиза, проверьте архив на VirusTotal, прочитайте код.</p>
+        </details>
+        <details class="rv">
+          <summary>Ничего не запускается, «winws не запустился»</summary>
+          <p>Проверьте: запуск от имени администратора; рядом лежат <code>general*.bat</code> и папка <code>bin</code>; антивирус не блокирует папку; нет другого VPN или обхода, конфликтующего с WinDivert.</p>
+        </details>
+        <details class="rv">
+          <summary>WARP не подключается</summary>
+          <p>Клиент Cloudflare ставить не нужно — туннель уже в папке. Если подключение не удалось, под статусом будет причина, а маршруты снимутся сами. Чаще всего это антивирус, который не пускает <code>core\warp\usque.exe</code>, или из папки пропала <code>core\warp\</code>.</p>
+        </details>
+        <details class="rv">
+          <summary>Можно ли обойтись без Studio?</summary>
+          <p>Конечно. Zapret Studio — это удобство, а не обязательное условие. Оригинал живёт <a href="https://github.com/Flowseal/zapret-discord-youtube" target="_blank" rel="noopener" style="color:#C0B0FF">здесь</a>.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section id="download">
+    <div class="wrap">
+      <div class="head rv">
+        <div class="sec-tag-row">
+          <div class="sec-tag">Скачать</div>
+          <span class="fresh"><i></i>последние версии</span>
+        </div>
+        <h2>Выберите, что вам нужно</h2>
+        <p>Ничего не установлено — берите полный набор. Zapret уже стоит — хватит одной оболочки. Всё в архивах — актуальное, сверяется с GitHub.</p>
+      </div>
+
+      <div class="dl-grid">
+        <div class="dl-card rec rv">
+          <span class="rec-t">рекомендуем</span>
+          <div class="dl-top"><h3>Полный набор</h3><div class="sz">6,6 МБ</div></div>
+          <p>С нуля: оболочка, движок zapret и 22 стратегии в одном архиве.</p>
+          <a class="btn btn-p" href="download/ZapretStudio-v2.5-full.zip">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+            Скачать
+          </a>
+        </div>
+        <div class="dl-card rv" style="--d:70ms">
+          <div class="dl-top"><h3>Только оболочка</h3><div class="sz">5,2 МБ</div></div>
+          <p>Zapret уже стоит. Распакуйте поверх своей папки — стратегии останутся.</p>
+          <a class="btn btn-g" href="download/ZapretStudio-v2.5.zip">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+            Скачать
+          </a>
+        </div>
+        <div class="dl-card rv" style="--d:140ms">
+          <div class="dl-top"><h3>Только zapret</h3><div class="sz">1,3 МБ</div></div>
+          <p>Нужен движок без оболочки. Та же сборка, что в полном наборе.</p>
+          <a class="btn btn-g" href="download/zapret-original.zip">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+            Скачать
+          </a>
+        </div>
+      </div>
+
+      <div class="dl-note rv">
+        <b>Zapret — не наш.</b> Это движок <b>bol-van</b> и сборка стратегий <b>Flowseal</b>, лицензия MIT.
+        Мы его не пишем и не меняем — только кладём рядом и раздаём с разрешения лицензии.
+        Оригинал всегда можно взять у авторов: <a href="https://github.com/Flowseal/zapret-discord-youtube/releases" target="_blank" rel="noopener">Flowseal</a>,
+        <a href="https://github.com/bol-van/zapret" target="_blank" rel="noopener">bol-van</a>.
+      </div>
+
+  </section>
+</main>
+
+<footer id="contacts">
+  <div class="wrap">
+    <div class="foot">
+      <div class="fabout">
+        <a class="brand" href="#top"><img src="img/icon.png" alt=""> Zapret Studio</a>
+        <p>Оболочка для zapret: подбор стратегии, слежение за связью и встроенный туннель в одном окне.</p>
+        <div class="fbadges"><span>Windows 10 / 11</span><span>v2.5</span><span>5,2 МБ</span></div>
+      </div>
+
+      <div class="fcol">
+        <span class="t">Проект</span>
+        <a href="https://github.com/dadramus/ZapretStudio" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.4-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.7.3-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .3.3.6.9.6 1.8v2.7c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg>
+          GitHub
+        </a>
+        <a href="https://github.com/dadramus/ZapretStudio/releases" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M20 12.5V20a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.5"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+          Все релизы
+        </a>
+      </div>
+
+      <div class="fcol">
+        <span class="t">Помощь</span>
+        <a href="https://discord.com/users/510426844236087306" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.3 4.5A17 17 0 0 0 16 3.2l-.2.4c1.5.4 2.2.9 2.2.9a13 13 0 0 0-11.9 0s.7-.5 2.2-.9L8.1 3.2A17 17 0 0 0 3.7 4.5C1 8.2.3 11.8.6 15.3a17 17 0 0 0 5.2 2.6l.6-1c-.6-.2-1.2-.5-1.7-.9l.4-.3a12 12 0 0 0 10 0l.4.3c-.5.4-1.1.7-1.7.9l.6 1a17 17 0 0 0 5.2-2.6c.4-4-.7-7.6-3.3-10.8zM8.9 13.2c-.9 0-1.6-.8-1.6-1.8s.7-1.8 1.6-1.8 1.6.8 1.6 1.8-.7 1.8-1.6 1.8zm6.2 0c-.9 0-1.6-.8-1.6-1.8s.7-1.8 1.6-1.8 1.6.8 1.6 1.8-.7 1.8-1.6 1.8z"/></svg>
+          Сообщить об ошибке
+        </a>
+        <a href="#install">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h12v18H6a2 2 0 0 1-2-2.5z"/><path d="M8 7h6"/></svg>
+          Инструкция
+        </a>
+        <a href="#faq">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.4 2.3c-.6.3-.9.8-.9 1.4v.3"/><path d="M12 17h.01"/></svg>
+          Частые вопросы
+        </a>
+      </div>
+
+      <div class="fcol">
+        <span class="t">Поддержать</span>
+        <a href="https://priyutino-fond.ru/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 5.6a5 5 0 0 0-7.1 0L12 7.3l-1.7-1.7a5 5 0 1 0-7.1 7.1l1.7 1.7L12 21.5l7.1-7.1 1.7-1.7a5 5 0 0 0 0-7.1z"/></svg>
+          Благотворительность
+        </a>
+        <a href="https://github.com/dadramus/ZapretStudio" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="m12 3 2.6 5.6 6.1.8-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6L3.3 9.4l6.1-.8z"/></svg>
+          Поставить звезду
+        </a>
+      </div>
+    </div>
+
+    <div class="legal">
+      <p>Cloudflare WARP и 1.1.1.1 — товарные знаки Cloudflare, Inc.; программа не связана с Cloudflare. Zapret, стратегии и WinDivert принадлежат их авторам. <a href="legal.html">Все лицензии и оговорки</a></p>
+    </div>
+
+    <div class="copy">
+      <span>© 2026 dadramus · помощь в создании — KolRau</span>
+      <span>Бесплатно, без телеметрии</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var hd = document.getElementById('hd');
+  function onScroll(){ hd.classList.toggle('on', window.scrollY > 12); }
+  onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+
+  var items = document.querySelectorAll('.rv');
+  if (!('IntersectionObserver' in window)) {
+    for (var i=0;i<items.length;i++) items[i].classList.add('in');
+    return;
+  }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+    });
+  }, {rootMargin:'0px 0px -8% 0px', threshold:0.08});
+  for (var j=0;j<items.length;j++) io.observe(items[j]);
+})();
+</script>
+
+</body>
+</html>

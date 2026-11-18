@@ -1,0 +1,29 @@
+{
+  "version": "2.5",
+  "zapret": "1.10.4",
+  "published": "2026-11-18",
+  "url": "https://github.com/dadramus/ZapretStudio/releases/tag/v2.5",
+  "notes": "WARP наконец работает: маршрут до Cloudflare закрепляется до подъёма туннеля, статус подтверждается запросом. Удержание IP, проверка обновлений.",
+  "default": "full",
+  "files": {
+    "full": {
+      "path": "download/ZapretStudio-v2.5-full.zip",
+      "size": 6872193,
+      "sha256": "8262897856A223A0060ACBB24FA83BB982A4FD8BDF1F55BE5181D2F9A33310E2",
+      "title": "Полный набор"
+    },
+    "studio": {
+      "path": "download/ZapretStudio-v2.5.zip",
+      "size": 5477868,
+      "sha256": "F6B0AF358E4F8F8A991CEBF06812A4BA5BFE95F18915899FBC3E90378572A018",
+      "title": "Только оболочка"
+    },
+    "zapret": {
+      "path": "download/zapret-original.zip",
+      "size": 1394333,
+      "sha256": "50F4473ACA871396EA80CAC65C7462845A67A39B750F30F1F90441588D203F7A",
+      "title": "Только zapret",
+      "license": "MIT, © 2016-2026 bol-van, © 2024-2026 Flowseal"
+    }
+  }
+}
