@@ -8,24 +8,26 @@
   "files": {
     "full": {
       "path": "download/ZapretStudio-v2.5-full.zip",
-      "size": 6872193,
-      "sha256": "8262897856A223A0060ACBB24FA83BB982A4FD8BDF1F55BE5181D2F9A33310E2",
+      "size": 6872783,
+      "sha256": "EB74B1EF9A26587516819C5BB02D36759A70705EB12729E602C57757610C516D",
       "title": "Полный набор",
-      "root": "core/, ZapretStudio.bat, bin/, lists/, general*.bat, service.bat"
+      "root": "core/ + ZapretStudio.bat",
+      "contains": "core/ (программа, bin/, lists/, general*.bat, service.bat, warp/) + ZapretStudio.bat"
     },
     "studio": {
       "path": "download/ZapretStudio-v2.5.zip",
       "size": 5477868,
       "sha256": "F6B0AF358E4F8F8A991CEBF06812A4BA5BFE95F18915899FBC3E90378572A018",
       "title": "Только оболочка",
-      "root": "core/, ZapretStudio.bat"
+      "root": "core/ + ZapretStudio.bat",
+      "contains": "core/ (только программа и warp/) + ZapretStudio.bat"
     },
     "zapret": {
       "path": "download/zapret-original.zip",
       "size": 1394347,
       "sha256": "BE1DC0266A6A29DB14BD5BFC059C7AF85910E6756FFFF3D04A9FDC727D1B8BBA",
       "title": "Только zapret",
-      "root": "bin/, lists/, general*.bat, service.bat, LICENSE.txt",
+      "root": "bin/, lists/, general*.bat, service.bat",
       "license": "MIT, © 2016-2026 bol-van, © 2024-2026 Flowseal"
     }
   }
