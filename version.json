@@ -8,21 +8,24 @@
   "files": {
     "full": {
       "path": "download/ZapretStudio-v2.5-full.zip",
-      "size": 6872193,
-      "sha256": "8262897856A223A0060ACBB24FA83BB982A4FD8BDF1F55BE5181D2F9A33310E2",
-      "title": "Полный набор"
+      "size": 6873187,
+      "sha256": "6C087ADC8187C7D5741C2294FD3A4372CABF13C1F4D9E9B2CA8163D4F9438031",
+      "title": "Полный набор",
+      "root": "Zapret/"
     },
     "studio": {
       "path": "download/ZapretStudio-v2.5.zip",
-      "size": 5477868,
-      "sha256": "F6B0AF358E4F8F8A991CEBF06812A4BA5BFE95F18915899FBC3E90378572A018",
-      "title": "Только оболочка"
+      "size": 5478036,
+      "sha256": "270BA9022807650E5DB7534F3EF891C87E4F011DF1E4AE59B425E0378E8E14C9",
+      "title": "Только оболочка",
+      "root": "Zapret/"
     },
     "zapret": {
       "path": "download/zapret-original.zip",
-      "size": 1394333,
-      "sha256": "50F4473ACA871396EA80CAC65C7462845A67A39B750F30F1F90441588D203F7A",
+      "size": 1395999,
+      "sha256": "3DF2892A87992991EC8F816B3937635D29561F14E3B3FEC038781E6912DB38E8",
       "title": "Только zapret",
+      "root": "zapret-1.10.4/",
       "license": "MIT, © 2016-2026 bol-van, © 2024-2026 Flowseal"
     }
   }
